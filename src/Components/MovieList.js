@@ -13,6 +13,7 @@ const MovieList = [
         Image : Mercy ,
         Title: "JUST MERCY" ,
         Descriptions: "Biopic Drame" ,
+        Video : "Trailer",
         rate: 5,
       },
   
@@ -21,6 +22,7 @@ const MovieList = [
         Image : TheOccupant ,
         Title: "THE OCCUPANT" ,
         Descriptions: "Thrillers" ,
+        Video : "Trailer",
         rate: 3,
       },
   
@@ -29,6 +31,7 @@ const MovieList = [
         Image : Instinct ,
         Title: "THE SHALLOWS" ,
         Descriptions: "Thrillers" ,
+        Video : "Trailer",
         rate: 2,
       },
   
@@ -37,6 +40,7 @@ const MovieList = [
         Image : Badboys ,
         Title: "BAD BOYS" ,
         Descriptions: "Action Comédie" ,
+        Video : "Trailer",
         rate: 4,
       },
   
@@ -45,6 +49,7 @@ const MovieList = [
         Image : Gentlemen ,
         Title: "THE GENTLEMEN" ,
         Descriptions: "Policier, Action" ,
+        Video : "Trailer",
         rate: 3,
       },
     
@@ -53,6 +58,7 @@ const MovieList = [
         Image : Tenet ,
         Title: "TENET" ,
         Descriptions: "Science fiction" ,
+        Video : "Trailer",
         rate: 3,
       },
 

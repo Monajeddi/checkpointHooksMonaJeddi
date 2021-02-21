@@ -1,7 +1,8 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
 import Rating from './Rating';
-import AddModal from './Add'
+import AddModal from './Add';
+import { Link } from 'react-router-dom';
 
 
 const MovieCard = ({movie , addCard, AddMovie}) => {
@@ -25,9 +26,16 @@ const MovieCard = ({movie , addCard, AddMovie}) => {
   <Card.Img variant="top" src={movie.Image} />
   <Card.Body>
     <Card.Title style={{fontSize:'small'}}>{movie.Title}</Card.Title>
-    <Card.Text>
-     {movie.Description}
+    <Link to={`/Descriptions/${movie.id}`}>
+     <Card.Text>
+     {movie.Descriptions}
     </Card.Text>
+    </Link>
+    <Link to={`/Video/${movie.id}`}>
+     <Card.Text>
+     {movie.Video}
+    </Card.Text>
+    </Link>
     <Rating ratingSearch={false} rate={movie.rate}/>
   </Card.Body>
 </Card>
